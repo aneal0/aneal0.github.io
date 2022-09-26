@@ -1,6 +1,23 @@
-h1{color: darkred;}
-h2{color: darkred;}
+h1{
+  color: darkred;
+  font-weight: 900;
+}
+h2{
+  color: darkred;
+  margin-left: 100px;
+}
 body {
   background-color: black;
+  font-family: 'Roboto', sans-serif;
 }
-p{color: whitesmoke;}
+p{
+  color: whitesmoke;
+  margin-right: 300px;
+  margin-left: 100px;
+}
+nav {
+  list-style-type: none;
+  margin-left: 100px;
+  display: block;
+  font-weight: 600;
+}
