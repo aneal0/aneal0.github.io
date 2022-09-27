@@ -9,5 +9,10 @@ h2::first-letter {
   margin-right: 6px;
   float: right;
 }
+.circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
 
   
