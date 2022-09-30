@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head
+        <title>Exercise 5</title>
+        <link rel="stylesheet" type="text/css" href="../main.css">
+        <link rel="stylesheet" type="text/css" href="letter.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <h1>EXERCISE 5</h1>
+        <style>
+            .shape1 {
+                width: 30px;
+                height: 300px;
+                background-color: skyblue;
+                position: absolute;
+                top: 200px;
+                left: 300px;
+                animation: pulse 8s infinite;
+            }
+            @keyframes pulse {
+            0% {
+            background-color: skyblue;
+            }
+            100% {
+            background-color: darkred;}
+            }           
+            .shape1:hover {
+                background-color: yellow;
+                animation: gelatine 0.5s infinite;
+            }
+             @keyframes gelatine {
+            from, to { transform: scale(1, 1); }
+            25% { transform: scale(0.9, 1.1); }
+            50% { transform: scale(1.1, 0.9); }
+            75% { transform: scale(0.95, 1.05); }
+            }
+            .shape2 {
+                width: 150px;
+                height: 165px;
+                background-color: skyblue;
+                border-radius: 100px;
+                position: absolute;
+                top: 200px;
+                left: 350px;
+                animation: pulse 8s infinite;
+            } 
+            .shape2:hover {
+                background-color: yellow;
+                animation: bounce-in-right 2.5s ease infinite;
+            }
+            @keyframes bounce-in-right {
+            0% {
+            transform: translateX(1500px);
+            }
+            60% {
+            transform: translateX(-30px);
+            }
+            80% { transform: translateX(10px); }
+            100% { transform: translateX(0); }
+            }
+        </style>
+        </head>
+        <body>
+            <div class="shape1"></div>
+            <div class="shape2"></div>
+        </body>
+    <body>
+    <nav>
+    <a href="ContrastofSize.html">Contrast of Size</a>
+    <a href="ContrastofWeight.html">Contrast of Weight</a>
+    <a href="contrastofform.html">Contrast of Form</a>
+    <a href="contrastofstructure.html">Contrast of Structure</a>
+    <a href="contrastoftexture.html">Contrast of Texture</a>
+    <a href="contrastofcolor.html">Contrast of Color</a>
+    <a href="contrastofdirection.html">Contrast of Direction</a>
+    <a href="othertypesofcontrast.html">Other Types of Contrast</a>
+    <a href="Letter.html">EXERCISE 4</a>
+    <a href="exercise5.html">EXERCISE 5</a>
+    <a href="../index.html">HOME</a>
+    </nav>
+    </body>
+</html>
