@@ -21,3 +21,15 @@ nav {
   display: block;
   font-weight: 600;
 }
+div {
+  display:inline;
+  margin:1rem;
+  padding:1rem;
+  color: whitesmoke;
+  border: solid 1px whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.on {
+  background-color:blue;
+}
