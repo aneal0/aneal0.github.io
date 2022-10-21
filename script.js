@@ -1,7 +1,4 @@
-$(document).ready(function){
-
- $('lightmode').click(function() 
- {
- $('body').toggleClass('on');
-  })
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("light");
 }
