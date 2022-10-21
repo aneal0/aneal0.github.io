@@ -1,6 +1,6 @@
 $(document).ready(function){
 
- $('.button3').click(function() 
+ $('lightmode').click(function() 
  {
  $('body').toggleClass('on');
   })
