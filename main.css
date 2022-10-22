@@ -27,4 +27,7 @@ nav {
 .light {
   background-color: dimgrey;
 }
-  
+
+.light p{
+    color:  black;
+  }
