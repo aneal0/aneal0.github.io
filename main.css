@@ -25,9 +25,15 @@ nav {
   background-color: darkred;
 }
 .light {
-  background-color: dimgrey;
+  background-color: whitesmoke;
 }
 
 .light p{
+    color:  black;
+  }
+.light h1{
+    color:  black;
+  }
+.light h2{
     color:  black;
   }
