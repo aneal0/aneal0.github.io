@@ -5,13 +5,15 @@
     box-sizing: border-box
 }
 h1{
-    color: black;
+    color: #608e9e;
     font-weight: bold;
     /*font-weight: 900;*/
     position: absolute;
     /*width: 700px;*/
     /*height: 275px;*/
-    left: 500px;
+    left: 450px;
+    /*margin-right: 600px;*/
+    /*margin-left:  600px;*/
     top: 600px;
 }
 body {
