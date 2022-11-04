@@ -4,32 +4,66 @@
     margin: 0;
     box-sizing: border-box
 }
-
-body {
-    font-family: 'Lato', sans-serif;
-    padding: 30px;
+h1{
+    color: black;
+    font-weight: bold;
+    /*font-weight: 900;*/
+    position: absolute;
+    /*width: 700px;*/
+    /*height: 275px;*/
+    left: 500px;
+    top: 600px;
 }
-
+body {
+    background-color: #ffffff;
+}
+p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 600px;
+    margin-left: 600px;
+    position: absolute;
+    top: 500px;
+}
+.sectionimage {
+    background:;
+    padding: 0px;
+    /*width: 1728px;*/
+    max-width: 100%;
+    position: absolute;
+    top: 350px;
+} 
+.slidebar {
+    /*background: blue;*/
+    padding: 0px;
+    /*width: 1700px;*/
+    max-width: 99%;
+    height: 200px;
+    position: absolute;
+    bottom:  -675px;
+} 
 img {
     max-width: 100%;
     border-radius: 0px;
+    image-size:  cover;
 }
-
 .slidecontainer {
     margin-top: 10px;
+    position: relative;
 }
-
 .slider-range {
     width: 100%;
+    position: relative;
 }
-
 .range-number {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
     padding: 0 3px;
     margin-bottom: 15px;
+    position: relative;
 }
-
-
-/**************/
+.phide {
+    display: none;
+}
