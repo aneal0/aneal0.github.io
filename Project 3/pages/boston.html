@@ -7,13 +7,159 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="../main3.css">
 <body>
+<h1>Should this be saved?</h1>
+<h2>Project: Government Service Center
+    <br>Location: Boston, MA
+</h2>
 
 <button type="button3" class="button3">
-  <a type="button" href="ar.html">SUBMIT</a>
+  <a type="button" href="ar.html">NEXT</a>
 </button>
-
+<button type="button5" class="button5" onclick="openForm()"><strong>SUBMIT</a>
+</button>
 <div class="image">
     <img src="../images/boston.jpg" style="background-size: cover; width: 100%; max-height: 100%;">
+</div>
+
+<style>
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  left: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 15px;
+  border: 0px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #555;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+
+<button class="open-button" onclick="openForm()"><strong><font size="3">Responses</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <!-- <h1>Responses</h1> -->
+
+    <div class="comment-section">
+          <div class="comment">
+             Yes. Iconic representation of New York
+              <br>
+              <br>
+              <em>Spencer on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, because it has been a part of New York for my lifetime
+              <br>
+              <br>
+              <em>Cheryl on Decemeber 2, 2022</em>
+            </div>
+            <div class="comment">
+             Yes, because of historical features and value for replacement. Impossible by today’s standards to duplicate.
+              <br>
+              <br>
+              <em>James on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes because it is a name recognized by many. It serves a structural purpose but also a historical one.
+              <br>
+              <br>
+              <em>Angela on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes. It's iconic, widely recognized, highly functional, a technical feat of design and engineering and does no harm.
+              <br>
+              <br>
+              <em>Brad on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, because of the history behind the bridge, it makes it a monument.
+              <br>
+              <br>
+              <em>Kirk on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes. It is one of the oldest suspension bridges in the world.
+              <br>
+              <br>
+              <em>Parvati on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             In my opinion, yes. However, I don’t know if it’s ever been officially labeled as one.
+              <br>
+              <br>
+              <em>Jade on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+              The Brooklyn Bridge was one of the first bridges to be built with steel. At the time it was built it was the longest suspension bridge in the world. It is a national historic landmark.
+              <br>
+              <br>
+              <em>Robin on Decemeber 3, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, the Brooklyn Bridge is a monument. The Brooklyn Bridge was the largest suspension bridge when it was constructed. The construction of the bridge was considered a pioneering effort.
+              <br>
+              <br>
+              <em>Jeff on Decemeber 3, 2022</em>
+           </div>
+           <div class="comment">
+             Probably.
+              <br>
+              <br>
+              <em>Nick on Decemeber 3, 2022</em>
+           </div>
+    </div>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+<div class="container">
+  <input type="text" id="Enter Answer" autocomplete="off" placeholder="" class="form-input">
+  <!-- <label for="Enter Answer">Enter Answer</label> -->
 </div>
 
 </body>

@@ -7,22 +7,22 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="../main3.css">
 <body>
+<h1>Is this a monument?</h1>
+<h2>Project: Brooklyn Bridge 
+    <br>Location: New York, NY
+</h2>
 
 <button type="button2" class="button2">
-  <a type="button" href="boston.html">SUBMIT</a>
+  <a type="button" href="boston.html"><strong>NEXT</a>
+</button>
+<button type="button4" class="button4" onclick="openForm()"><strong>SUBMIT</a>
 </button>
 
 <div class="image">
     <img src="../images/bridge.jpg" style="background-size: cover; width: 100%; height: 100%;">
 </div>
 
-
-
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-
-/* Button used to open the chat form - fixed at the bottom of the page */
 .open-button {
   background-color: #555;
   color: white;
@@ -32,45 +32,25 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 0.8;
   position: fixed;
   bottom: 23px;
-  right: 28px;
+  left: 28px;
   width: 280px;
 }
 
-/* The popup chat - hidden by default */
 .chat-popup {
   display: none;
   position: fixed;
   bottom: 0;
-  right: 15px;
-  border: 3px solid #f1f1f1;
+  left: 15px;
+  border: 0px solid #f1f1f1;
   z-index: 9;
 }
 
-/* Add styles to the form container */
 .form-container {
   max-width: 300px;
   padding: 10px;
-  background-color: white;
+  background-color: #555;
 }
 
-/* Full-width textarea */
-.form-container textarea {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-  resize: none;
-  min-height: 200px;
-}
-
-/* When the textarea gets focus, do something */
-.form-container textarea:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-/* Set a style for the submit/send button */
 .form-container .btn {
   background-color: #04AA6D;
   color: white;
@@ -82,43 +62,105 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
 .form-container .cancel {
   background-color: red;
 }
 
-/* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
 </style>
 </head>
-<body>
 
-
-<button class="open-button" onclick="openForm()">Chat</button>
+<button class="open-button" onclick="openForm()"><strong><font size="3">Responses</button>
 
 <div class="chat-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
-    <h1>Chat</h1>
+    <!-- <h1>Responses</h1> -->
 
-    <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
-
-    <button type="submit" class="btn">Send</button>
+    <div class="comment-section">
+          <div class="comment">
+             Yes. Iconic representation of New York
+              <br>
+              <br>
+              <em>Spencer on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, because it has been a part of New York for my lifetime
+              <br>
+              <br>
+              <em>Cheryl on Decemeber 2, 2022</em>
+            </div>
+            <div class="comment">
+             Yes, because of historical features and value for replacement. Impossible by today’s standards to duplicate.
+              <br>
+              <br>
+              <em>James on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes because it is a name recognized by many. It serves a structural purpose but also a historical one.
+              <br>
+              <br>
+              <em>Angela on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes. It's iconic, widely recognized, highly functional, a technical feat of design and engineering and does no harm.
+              <br>
+              <br>
+              <em>Brad on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, because of the history behind the bridge, it makes it a monument.
+              <br>
+              <br>
+              <em>Kirk on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes. It is one of the oldest suspension bridges in the world.
+              <br>
+              <br>
+              <em>Parvati on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             In my opinion, yes. However, I don’t know if it’s ever been officially labeled as one.
+              <br>
+              <br>
+              <em>Jade on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+              The Brooklyn Bridge was one of the first bridges to be built with steel. At the time it was built it was the longest suspension bridge in the world. It is a national historic landmark.
+              <br>
+              <br>
+              <em>Robin on Decemeber 3, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, the Brooklyn Bridge is a monument. The Brooklyn Bridge was the largest suspension bridge when it was constructed. The construction of the bridge was considered a pioneering effort.
+              <br>
+              <br>
+              <em>Jeff on Decemeber 3, 2022</em>
+           </div>
+           <div class="comment">
+             Probably.
+              <br>
+              <br>
+              <em>Nick on Decemeber 3, 2022</em>
+           </div>
+    </div>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
-
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
-
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
 </script>
 
+<div class="container">
+  <input type="text" id="Enter Answer" autocomplete="off" placeholder="" class="form-input">
+  <!-- <label for="Enter Answer">Enter Answer</label> -->
+</div>
 </body>
 </html>
