@@ -7,8 +7,156 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="../main3.css">
 <body>
-<button type="button1" class="button1">ENTER</button>
-<p> What is adaptive reuse?</p>
+<h1>What is adaptive reuse?</h1>
+
+<button type="button6" class="button6">
+  <a type="button" href="https://a.co/d/hP2GQyy">MORE INFORMATION</a>
+</button>
+<button type="button7" class="button7" onclick="openForm()"><strong>SUBMIT</a>
+</button>
+
+<style>
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  left: 28px;
+  width: 280px;
+}
+
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 15px;
+  border: 0px solid #f1f1f1;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #555;
+}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
+</head>
+
+<button class="open-button" onclick="openForm()"><strong><font size="3">Responses</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <!-- <h1>Responses</h1> -->
+
+    <div class="comment-section">
+          <div class="comment">
+             Yes
+              <br>
+              <br>
+              <em>Spencer on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+            It represents a time frame where this architectural style was in use or thought to be futuristic
+              <br>
+              <br>
+              <em>Cheryl on Decemeber 2, 2022</em>
+            </div>
+            <div class="comment">
+            Yes, it should be saved. Engineering and craftsmanship is invaluable.
+              <br>
+              <br>
+              <em>James on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Its a nice structure and very large. It could be used for something else instead of being torn down.
+              <br>
+              <br>
+              <em>Angela on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes. Architecture is art. It, like other forms of art, captures and tells human history. Place, time, circumstance, etc... All that is wrapped up in buildings like this one. 
+              <br>
+              <br>
+              <em>Brad on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, because there is a lot of good history within the building.
+              <br>
+              <br>
+              <em>Kirk on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             Yes. It is a style in architecture that is slowly disappearing from our urban fabric.
+              <br>
+              <br>
+              <em>Parvati on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+             I am not familiar enough with the structure to say yes or no. I’ve never heard of this. 
+              <br>
+              <br>
+              <em>Jade on Decemeber 2, 2022</em>
+           </div>
+           <div class="comment">
+              Yes if the building can be used for another purpose with renovations made on the inside to accommodate whatever new purpose the building will serve. 
+              <br>
+              <br>
+              <em>Robin on Decemeber 3, 2022</em>
+           </div>
+           <div class="comment">
+             Yes, the Boston government service center should be saved, if the structure is secure and provides a function for the community. 
+              <br>
+              <br>
+              <em>Jeff on Decemeber 3, 2022</em>
+           </div>
+           <div class="comment">
+             Nope, looks ugly.
+              <br>
+              <br>
+              <em>Nick on Decemeber 3, 2022</em>
+           </div>
+    </div>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+<div class="container">
+  <input type="text" id="Enter Answer" autocomplete="off" placeholder="" class="form-input">
+  <!-- <label for="Enter Answer">Enter Answer</label> -->
+</div>
+
+
 
 
 

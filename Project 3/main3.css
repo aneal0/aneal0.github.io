@@ -66,6 +66,28 @@ h2{
         cursor: pointer;
         background: ;
 }
+.button6 {
+  position: fixed;
+  top: 285px;
+  left: 350px;
+}
+.button6:hover {
+        cursor: pointer;
+        background: ;
+}
+.button7 {
+  position: fixed;
+  top: 315px;
+  left: 350px;
+}
+.button7:hover {
+        cursor: pointer;
+        background: ;
+}
+
+
+
+
     .comment-section{
         max-height: 25vh;
         max-width: 100%;
