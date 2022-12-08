@@ -21,14 +21,20 @@
 <h2>Project: Government Service Center
     <br>Location: Boston, MA
 </h2>
-<div class="next-button" id="showbutton">
-    <button type="button3" class="button3">
-        <a type="button" href="ar.html">NEXT</a>
+
+<div id="button3">
+<button type="button3" class="button3">
+        <a type="button" a style="text-decoration-line: none"; href="ar.html">NEXT</a>
     </button>
 </div>
-<button type="button5" class="button5" onclick="openForm()"><strong>SUBMIT</a>
+<button type="button5" class="button5" onclick="openForm()" on><strong>SUBMIT</a>
 </button>
 <style>
+.button3 {
+  text-decoration-line: none;
+}
+
+
 .open-button {
   background-color: #555;
   color: white;
@@ -162,16 +168,6 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
-
-
-function revealbutton() {
-  var x = document.getElementById("showbutton");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
 </script>
 
 <div class="container">
@@ -180,4 +176,6 @@ function revealbutton() {
 </div>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="main.js"></script>
 </html>
